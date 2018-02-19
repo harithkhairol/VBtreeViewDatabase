@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+treeViewDb4
+</name>
+</assembly>
+<members>
+<member name="T:treeViewDb4.testdb4DataSet.employeesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet.workingdaysDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet.employeesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet.workingdaysRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet.employeesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet.workingdaysRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSetTableAdapters.employeesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSetTableAdapters.workingdaysTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(treeViewDb4.testdb4DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(treeViewDb4.testdb4DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(treeViewDb4.testdb4DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.UpdateAll(treeViewDb4.testdb4DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1.employeesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1.workingdaysDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1.employeesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1.workingdaysRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1.employeesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1.workingdaysRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1TableAdapters.employeesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1TableAdapters.workingdaysTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(treeViewDb4.testdb4DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(treeViewDb4.testdb4DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(treeViewDb4.testdb4DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.UpdateAll(treeViewDb4.testdb4DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:treeViewDb4.testdb4DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:treeViewDb4.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:treeViewDb4.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:treeViewDb4.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
